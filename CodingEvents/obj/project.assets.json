@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Mia\\.nuget\\packages\\": {}
+    "C:\\Users\\mlord\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mia\\source\\repos\\CodingEvents\\CodingEvents.csproj",
+      "projectUniqueName": "C:\\Users\\mlord\\Desktop\\LaunchCode_Microsoft\\csharp-practice\\bluephoenix5\\ASP.NET\\Chp13 Walkthrough\\ASP.NET-Chp13-Walkthrough\\CodingEvents\\CodingEvents.csproj",
       "projectName": "CodingEvents",
-      "projectPath": "C:\\Users\\Mia\\source\\repos\\CodingEvents\\CodingEvents.csproj",
-      "packagesPath": "C:\\Users\\Mia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mia\\source\\repos\\CodingEvents\\obj\\",
+      "projectPath": "C:\\Users\\mlord\\Desktop\\LaunchCode_Microsoft\\csharp-practice\\bluephoenix5\\ASP.NET\\Chp13 Walkthrough\\ASP.NET-Chp13-Walkthrough\\CodingEvents\\CodingEvents.csproj",
+      "packagesPath": "C:\\Users\\mlord\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mlord\\Desktop\\LaunchCode_Microsoft\\csharp-practice\\bluephoenix5\\ASP.NET\\Chp13 Walkthrough\\ASP.NET-Chp13-Walkthrough\\CodingEvents\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mlord\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
