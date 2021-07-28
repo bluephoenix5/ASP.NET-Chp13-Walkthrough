@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Mia\\Desktop\\LaunchCode_Microsoft\\csharp-practice\\bluephoenix5\\ASP.NET\\ASP.NET-Chp13-14 Walkthrough\\CodingEvents\\CodingEvents.csproj": {}
   },
   "projects": {
@@ -12,9 +13,22 @@
         "projectPath": "C:\\Users\\Mia\\Desktop\\LaunchCode_Microsoft\\csharp-practice\\bluephoenix5\\ASP.NET\\ASP.NET-Chp13-14 Walkthrough\\CodingEvents\\CodingEvents.csproj",
         "packagesPath": "C:\\Users\\Mia\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Mia\\Desktop\\LaunchCode_Microsoft\\csharp-practice\\bluephoenix5\\ASP.NET\\ASP.NET-Chp13-14 Walkthrough\\CodingEvents\\obj\\",
+=======
+    "C:\\Users\\mlord\\Desktop\\LaunchCode_Microsoft\\csharp-practice\\bluephoenix5\\ASP.NET\\Chp13 Walkthrough\\ASP.NET-Chp13-Walkthrough\\CodingEvents\\CodingEvents.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mlord\\Desktop\\LaunchCode_Microsoft\\csharp-practice\\bluephoenix5\\ASP.NET\\Chp13 Walkthrough\\ASP.NET-Chp13-Walkthrough\\CodingEvents\\CodingEvents.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mlord\\Desktop\\LaunchCode_Microsoft\\csharp-practice\\bluephoenix5\\ASP.NET\\Chp13 Walkthrough\\ASP.NET-Chp13-Walkthrough\\CodingEvents\\CodingEvents.csproj",
+        "projectName": "CodingEvents",
+        "projectPath": "C:\\Users\\mlord\\Desktop\\LaunchCode_Microsoft\\csharp-practice\\bluephoenix5\\ASP.NET\\Chp13 Walkthrough\\ASP.NET-Chp13-Walkthrough\\CodingEvents\\CodingEvents.csproj",
+        "packagesPath": "C:\\Users\\mlord\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mlord\\Desktop\\LaunchCode_Microsoft\\csharp-practice\\bluephoenix5\\ASP.NET\\Chp13 Walkthrough\\ASP.NET-Chp13-Walkthrough\\CodingEvents\\obj\\",
+>>>>>>> 1eb8369dfd2b5354736c14a80e7effc1a0b24d8b
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mlord\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
