@@ -1,35 +1,63 @@
-﻿using CodingEvents.Models;
-using Microsoft.AspNetCore.Mvc;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CodingEvents.ViewModels;
+using CodingEventsDemo.Data;
+using CodingEventsDemo.Models;
+using Microsoft.AspNetCore.Mvc;
 
-namespace CodingEvents.Controllers
+// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+namespace coding_events_practice.Controllers
 {
     public class EventsController : Controller
     {
-        static private List<Event> Events = new List<Event>();
-        
-        [HttpGet]
+
+        // GET: /<controller>/
         public IActionResult Index()
         {
-            ViewBag.events = Events;
+            List<Event> events = new List<Event>(EventData.GetAll());
 
-            return View();
+            return View(events);
         }
 
-        [HttpGet]
         public IActionResult Add()
         {
+            AddEventViewModel addEventViewModel = new AddEventViewModel();
+
+            return View(addEventViewModel);
+        }
+
+        [HttpPost]
+        public IActionResult Add(AddEventViewModel addEventViewModel)
+        {
+            Event newEvent = new Event
+            {
+                Name = addEventViewModel.Name,
+                Description = addEventViewModel.Description
+            };
+            
+            EventData.Add(newEvent);
+
+            return Redirect("/Events");
+        }
+
+        public IActionResult Delete()
+        {
+            //ViewBag.title = "Delete Events";
+            ViewBag.events = EventData.GetAll();
+
             return View();
         }
 
         [HttpPost]
-        [Route("/Events/Add")]
-        public IActionResult NewEvent(string name, string desc)
+        public IActionResult Delete(int[] eventIds)
         {
-            Events.Add(new Event(name, desc));
+            foreach (int eventId in eventIds)
+            {
+                EventData.Remove(eventId);
+            }
 
             return Redirect("/Events");
         }
